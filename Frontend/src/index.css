@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=DM+Serif+Display:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --primary: #1ca8cb;
+}
+@font-face {
+  font-family: "SatoshiRegular";
+  src: url("./assets/fonts/satoshi/Satoshi-Regular.otf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "SatoshiRegular", sans-serif;
+}
+
+/* colors */
+
+.primary-color-bg {
+  background-color: var(--primary);
+}
+.primary-color-text {
+  background-color: var(--primary);
+}
+
+/* Universal Font Classes */
+
+.font-dm-serif {
+  font-family: "DM Serif Display", serif;
+}
+
+/* fonts size */
+.fs-7 {
+  font-size: 14px;
+}
+
+input:focus {
+  border: 1px solid var(--primary) !important;
+  outline: none;
+}
