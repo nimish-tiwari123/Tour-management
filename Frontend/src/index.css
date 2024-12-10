@@ -38,3 +38,9 @@ input:focus {
   border: 1px solid var(--primary) !important;
   outline: none;
 }
+
+/* text decoration */
+
+.text-decoration-none{
+  text-decoration: none;
+}
